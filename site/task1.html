@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Загадки</title>
+	<meta name="author" content="Дарья Дорощук">
+	<meta name="description" content="Данный сайт содержит игру 'Загадки'">
+	<meta name="keywords" content="HTML, JavaScript, загадки">
+	<link rel="stylesheet" href="task1.css">
+	<script type="text/javascript" src="task1.js"></script>
+</head>
+<body>
+	<h1>Игра «Угадай загадку»</h1>
+	<p><span id="text">Условия игры:</span>
+		<ul>
+			<li>Отвечать строчными буквами.</li>
+			<li>Максимальное количество баллов, которые вы можете набрать в резльтате данной игры, составляет 4 балла (каждая загадка - 1балл).</li>
+		</ul>
+	</p>
+	<form name="main">
+		<div class="location">
+			<div>
+				<span class="name">Загадка №1:</span><br>
+				Мы день не спим,<br>
+				Мы ночь не спим,<br>
+				И день и ночь<br>
+				Стучим, стучим.
+			</div>
+			<input type="text" name="answer1" size="30" maxlength="25" required>
+		</div>
+		<div>
+			<div>
+				<span class="name">Загадка №2:</span><br>
+				По городу дождик осенний гулял,<br>
+				Зеркальце дождик свое потерял.<br>
+				Зеркальце то на асфальте лежит,<br>
+				Ветер подует - оно задрожит.
+			</div>
+			<input type="text" name="answer2" size="30" maxlength="25" required>
+		</div>
+		<div class="location">
+			<div>
+				<span class="name">Загадка №3:</span><br>
+				Если б не было его,<br>
+				Не сказал бы ничего.
+			</div><br><br>
+			<input type="text" name="answer3" size="30" maxlength="25" required>
+		</div>
+		<div>
+			<div>
+				<span class="name">Загадка №4:</span><br>
+				Лист бумаги по утрам<br>
+				На квартиру носят к нам,<br>
+				На одном таком листе<br>
+				много разных новостей.
+			</div>
+			<input type="text" name="answer4" size="30" maxlength="25" required>
+		</div>
+		<input type="button" value="Узнать результат" onclick="pressing_button()">
+	</form>
+</body>
+</html>

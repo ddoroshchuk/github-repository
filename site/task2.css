@@ -1,0 +1,27 @@
+body{
+	background-color: #7CF3E6;
+	color: #1712F9;
+	font-family: Arial, sans-serif;
+}
+
+form{
+	margin: 10% 30%;
+}
+
+input[type="number"]{
+	padding: 2px;
+	margin-top: 5px;
+}
+
+input[type="button"]{
+	padding: 5px;
+	margin: 3% 20%;
+	background-color: #7CF3E6;
+	border: 1px solid #7CF3E6;
+	background: -webkit-linear-gradient( to bottom, #C7FAEF, #3764F5);
+    background: -o-linear-gradient( to bottom, #C7FAEF, #3764F5);
+    background: -moz-linear-gradient( to bottom, #C7FAEF, #3764F5);
+    background: linear-gradient( to bottom, #C7FAEF, #3764F5);
+    behavior: url(Pie/PIE.htc);
+}
+

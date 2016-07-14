@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Угадайка</title>
+	<meta name="author" content="Дарья Дорощук">
+	<meta name="description" content="Данный сайт содержит игру 'Угадайка'">
+	<meta name="keywords" content="HTML, JavaScript, игра">
+	<link rel="stylesheet" href="task2.css">
+	<script type="text/javascript" src="task2.js"></script>
+</head>
+<body>
+	<form name="main">
+		<span>Введите нижнюю границу: </span>
+		<div><input type="number" name="min" min="0" max="1000" step="1" required></div><br>
+		<span>Введите верхнюю границу: </span>
+		<div><input type="number" name="max" min="0" max="1000" step="1" required></div><br>
+		<input type="button" value="Начать игру" onclick="play()"><br><br>
+	</form>
+</body>
+</html>

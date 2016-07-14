@@ -1,0 +1,55 @@
+body{
+	background-color: #7CF3E6;
+	color: #1712F9;
+	font-family: Arial, sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-style: italic;
+}
+
+#text{
+	color: #FA06D5;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+ul{
+	list-style-type: square;
+}
+
+form{
+	margin: 5% 25%; 
+	color: #070707;
+}
+
+form > div{
+	float: left;
+	margin-bottom: 5%;
+}
+
+form > div.location{
+	margin-right: 13%;
+}
+
+.name{
+	color: #FA06D5;
+	margin-left: 25%;
+}
+
+div input{
+	margin-top: 2%;
+	padding: 2px;
+}
+
+input[type="button"]{
+	margin: 0 34%;
+	border: 0;
+	padding: 10px;
+	background: -webkit-linear-gradient( to bottom, #F7C7FA, #D880F8);
+    background: -o-linear-gradient( to bottom, #F7C7FA, #D880F8);
+    background: -moz-linear-gradient( to bottom, #F7C7FA, #D880F8);
+    background: linear-gradient( to bottom, #F7C7FA, #D880F8);
+    behavior: url(Pie/PIE.htc);
+}
